@@ -17,7 +17,11 @@ JobScout pulls job listings from public APIs, applies fast keyword filters to cu
 
 The interface allows filtering by track, setting a minimum score, marking listings as applied, or dismissing bad fits.
 
-A live snapshot from the deployed app showing 62 listings filtered to score ≥ 4 across all tracks is included in the repo (`screenshots/`).
+A live snapshot from the deployed app showing 62 listings filtered to score ≥ 4 across all tracks:
+
+![JobScout interface](jobscout_screenshot.png)
+
+The full 23-page output is in `JobScout.pdf` in this repo.
 
 ## AI tools used
 
