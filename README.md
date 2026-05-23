@@ -17,11 +17,24 @@ JobScout pulls job listings from public APIs, applies fast keyword filters to cu
 
 The interface allows filtering by track, setting a minimum score, marking listings as applied, or dismissing bad fits.
 
-A live snapshot from the deployed app showing 62 listings filtered to score ≥ 4 across all tracks:
+Example output for a single listing:
 
-![JobScout interface](jobscout_screenshot.png)
+```
+Score: 8
+Title: [SkillBridge] Information Security Fellowship
+Company: Roblox · San Mateo, CA
+Track classification: Incident Ops
 
-The full 23-page output is in `JobScout.pdf` in this repo.
+Gaps (background not matched):
+- Military cybersecurity background
+- Tier 2 SOC analyst experience
+- Threat hunting in enterprise environments
+
+Verbatim JD phrases not addressed by current resume:
+- "Security Operations Center"
+- "runbooks, IRPs, workflows and automations"
+- "anomalous activity in our signals"
+```
 
 ## AI tools used
 
