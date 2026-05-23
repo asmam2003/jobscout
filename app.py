@@ -11,7 +11,7 @@ app = Flask(__name__)
 auth = HTTPBasicAuth()
 
 APP_USER = os.environ.get("APP_USER", "asma")
-APP_PASS = os.environ.get("APP_PASS", "changeme")
+APP_PASS = os.environ.get("APP_PASS", "changeme") // placeholder. Render passes env vars
 
 
 @auth.verify_password
