@@ -11,7 +11,7 @@ import time
 
 log = logging.getLogger(__name__)
 
-client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"]) // set on Render
 
 # ─────────────────────────────────────────────
 # Resume track summaries -- update these as your resumes evolve
@@ -83,7 +83,7 @@ JOB TITLE: {title}
 COMPANY: {company}
 
 JOB DESCRIPTION:
-{raw_jd[:4000]}  
+{raw_jd[:15000]}  //cost
 
 CANDIDATE RESUME TRACKS:
 {tracks_text}
